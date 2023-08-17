@@ -1,3 +1,7 @@
+# Author: Darren Chase Papa
+# version 0.1
+# branch a
+
 import pygame
 import sys
 import os
@@ -38,7 +42,7 @@ def display_text(screen, text, font_size):
 # Set up display
 screen_size = (700, 700)
 screen = pygame.display.set_mode(screen_size)
-pygame.display.set_caption("Voxel Game with Textures")
+pygame.display.set_caption("2DMC - v0.1")
 textures = {}
 scripts = {}
 block_pick = 0
@@ -114,7 +118,7 @@ def main():
                         voxels[row][col] = tuple(textures.keys())[block_pick]
                     if right_click and box != None:
                         try:
-                            exec(scripts.get(box,''),{'play':play,'pos':(col,row),'data':data,'tui':Input_GUI,'grid':voxels,'get_positions':get_positions,'os':os,'mb':messagebox})
+                            exec(scripts.get(box,''),{'play':play,'pos':(col,row),'data':data,'tui':Input_GUI,'grid':voxels,'os':os,'mb':messagebox})
                         except:
                             open('log.txt','w').write(traceback.format_exc())
                             exit()
