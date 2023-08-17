@@ -1,7 +1,3 @@
-# Author: Darren Chase Papa
-# version 0.1
-# branch a
-
 import pygame
 import sys
 import os
@@ -21,13 +17,6 @@ pygame.display.set_icon(icon)
 
 def play(soundfile):
     pygame.mixer.Sound(soundfile).play()
-
-def get_positions(x,y,size=1):
-    xs = []
-    for y in range(y-size*2,y-size):
-        for x in range(x-size*2,x-size):
-            xs.append((x,y))
-    return xs
 
 def display_text(screen, text, font_size):
     font = pygame.font.Font(None, font_size)
@@ -74,7 +63,7 @@ for file in os.listdir('./assets/textures/'):
         textures[os.path.basename(file).split('.')[0]] = pic
     else:
         open('log.txt','w').write('Texture that is not compatible was found in textures folder!')
-        break
+        exit()
 
 for file in os.listdir('./assets/scripts/'):
     try:
@@ -114,9 +103,9 @@ def main():
 
                 if 0 <= col < cols and 0 <= row < rows:
                     box = voxels[row][col]
-                    if right_click and box == None:
+                    if right_click and box == None: # place
                         voxels[row][col] = tuple(textures.keys())[block_pick]
-                    if right_click and box != None:
+                    if right_click and box != None: # use
                         try:
                             exec(scripts.get(box,''),{'play':play,'pos':(col,row),'data':data,'tui':Input_GUI,'grid':voxels,'os':os,'mb':messagebox})
                         except:
