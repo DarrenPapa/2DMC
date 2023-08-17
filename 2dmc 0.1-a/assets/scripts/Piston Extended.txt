@@ -1,0 +1,4 @@
+x,y=pos
+grid[y][x]='Piston'
+grid[y][x+1] = grid[y][x+2]
+grid[y][x+2] = None

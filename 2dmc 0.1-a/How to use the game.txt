@@ -1,0 +1,32 @@
+[ Welcome To 2DMC A Simple 2D Minecraft Game! ]
+
+NOTE:
+ANY VIRUSES THAT ARE MADE IN THIS GAME AND OR USES THIS GAME ARE NOT OUR RESPONSIBILITY BUT THE MAKERS OF THE VIRUSES THEM SELVES.
+
+Author: Darren Chase Papa
+Current Verion: 0.1-a (In development)
+
+==== [ How to play ] ====
+1. Placing And Removing blocks:
+To place blocks right click on a empty space.
+To remove blocks left click on a block.
+2. Using blocks:
+To use a block right click it the game will run a script in the assets/scripts/ folder that has the block name it just needs to be a raw text file.
+3. Choosing/selecting blocks:
+To change the block you can place use the left and right arrow keys.
+
+==== [ Creating custom blocks ] ====
+
+To create blocks that are simple and doesnt have a script,
+just make a texture of 656 by 656 pixel size and put it in the assets/textures folder restart the game and youll have the block just scroll and find its name hell it can just be a screen shot!
+
+To create scripts put a text file that has a existing blocks name and when that block is used it will run the text file you created.
+
+The script file (in this case the text file) is initiated with this modules and info:
+mb - Tkinters messagebox module
+os - The os standard library
+pos - Where the block is (a tuple of the x y coordinates)
+tui - A simple gui function i made to get input from the user.
+data - Just a dictionary that can be accessed by the other scripts.
+grid - The grid where the blocks are stored (look in the bomb script it uses this to achieve the explosive effect).
+play - A function to easily play sound files (must be wav or ogg format)
