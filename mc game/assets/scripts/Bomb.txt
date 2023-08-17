@@ -1,4 +1,4 @@
-play('./assets/sounds/Bomb.wav')
+# play('./assets/sounds/Bomb.wav') there was a sounds folder I just removed due to lack of sound effects :)
 x,y = pos
 size = 3
 for xx in range(x-size,x+size):
