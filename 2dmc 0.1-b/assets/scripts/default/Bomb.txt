@@ -1,0 +1,8 @@
+x,y = pos
+size = 3
+for xx in range(x-size,x+size):
+	for yy in range(y-size,y+size):
+		try:
+			grid[yy][xx]=None
+		except IndexError:
+			continue

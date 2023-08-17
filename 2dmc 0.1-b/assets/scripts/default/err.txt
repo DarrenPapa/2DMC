@@ -1,0 +1,1 @@
+mb.showwarning('WARNING','This block is missing its texture and its script!')

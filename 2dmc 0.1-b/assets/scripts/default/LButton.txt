@@ -1,0 +1,8 @@
+x, y = pos
+try:
+	if grid[y][x-1]==None: # Converts anything to a DOOR
+		grid[y][x-1]='default:Door'
+	else:
+		grid[y][x-1]=None
+except:
+	pass
