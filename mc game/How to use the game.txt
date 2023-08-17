@@ -19,7 +19,7 @@ just make a texture of 656 by 656 pixel size and put it in the assets/textures f
 
 To create scripts put a text file that has a existings blocks name and when that block is used it will run the text file you created.
 
-The script file (in this case the text file) is initiated with this modules and info:
+The script file (in this case the text file) is initiated with this modules and info (note the script is only run when you use the block):
 mb - Tkinters messagebox module
 os - The os standard library
 pos - Where the block is (a tuple of the x y coordinates)
