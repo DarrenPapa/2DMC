@@ -1,5 +1,12 @@
 2DMC - A 2d Minecraft Game
 
+LOOKING FOR CONTRIBUTERS
+Requirements:
+1. Can code in python in any way
+2. Can understand pygame and can use it
+3. Has experience in making simple games
+Please contact me: darrenchasepapa@gmail.com
+
 As of version 0.1:
 Its just a building game and the camera is at a fixed position and
 you just build.
