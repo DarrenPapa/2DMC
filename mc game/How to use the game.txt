@@ -1,5 +1,8 @@
 [ Welcome To 2DMC A Simple 2D Minecraft Game! ]
 
+NOTE:
+ANY VIRUSES THAT ARE MADE IN THIS GAME AND OR USES THIS GAME ARE NOT OUR RESPONSIBILITY BUT THE MAKERS OF THE VIRUSES THEM SELVES.
+
 Author: Darren Chase Papa
 Current Verion: 0.1-a (In development)
 
@@ -17,9 +20,9 @@ To change the block you can place use the left and right arrow keys.
 To create blocks that are simple and doesnt have a script,
 just make a texture of 656 by 656 pixel size and put it in the assets/textures folder restart the game and youll have the block just scroll and find its name hell it can just be a screen shot!
 
-To create scripts put a text file that has a existings blocks name and when that block is used it will run the text file you created.
+To create scripts put a text file that has a existing blocks name and when that block is used it will run the text file you created.
 
-The script file (in this case the text file) is initiated with this modules and info (note the script is only run when you use the block):
+The script file (in this case the text file) is initiated with this modules and info:
 mb - Tkinters messagebox module
 os - The os standard library
 pos - Where the block is (a tuple of the x y coordinates)
