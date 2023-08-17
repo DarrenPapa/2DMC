@@ -8,9 +8,12 @@ Requirements:
 Please contact me: darrenchasepapa@gmail.com
 
 As of version 0.1:
+Build A:
 Its just a building game and the camera is at a fixed position and
 you just build.
 It has modding capabilities its not that much but atleast it works.
+Build B (Current):
+Its more refined and the modding capabilities is the same its just how it handles it.
 
 Goals for version 0.2:
 Expand modding capabilities.
