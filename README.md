@@ -5,7 +5,7 @@ Requirements:
   1. Can code in python in any way
   2. Can understand pygame and can use it
   3. Has experience in making simple games
-Please contact me: darrenchasepapa@gmail.com
+<br>Please contact me: darrenchasepapa@gmail.com
 
 As of version 0.1:
   Build A:
